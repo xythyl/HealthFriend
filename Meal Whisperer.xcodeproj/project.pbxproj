@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345235301E4468E600C25C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452352F1E4468E600C25C99 /* main.m */; };
+		345235331E4468E600C25C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345235321E4468E600C25C99 /* AppDelegate.m */; };
+		345235361E4468E600C25C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345235351E4468E600C25C99 /* ViewController.m */; };
+		345235391E4468E600C25C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345235371E4468E600C25C99 /* Main.storyboard */; };
+		3452353B1E4468E700C25C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3452353A1E4468E700C25C99 /* Assets.xcassets */; };
+		3452353E1E4468E700C25C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3452353C1E4468E700C25C99 /* LaunchScreen.storyboard */; };
+		345235491E4468E700C25C99 /* Meal_WhispererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345235481E4468E700C25C99 /* Meal_WhispererTests.m */; };
+		345235541E4468E700C25C99 /* Meal_WhispererUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345235531E4468E700C25C99 /* Meal_WhispererUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345235451E4468E700C25C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345235231E4468E500C25C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3452352A1E4468E500C25C99;
+			remoteInfo = "Meal Whisperer";
+		};
+		345235501E4468E700C25C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345235231E4468E500C25C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3452352A1E4468E500C25C99;
+			remoteInfo = "Meal Whisperer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3452352B1E4468E600C25C99 /* Meal Whisperer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Whisperer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3452352F1E4468E600C25C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		345235311E4468E600C25C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		345235321E4468E600C25C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		345235341E4468E600C25C99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		345235351E4468E600C25C99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		345235381E4468E600C25C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3452353A1E4468E700C25C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3452353D1E4468E700C25C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3452353F1E4468E700C25C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345235441E4468E700C25C99 /* Meal WhispererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal WhispererTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345235481E4468E700C25C99 /* Meal_WhispererTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal_WhispererTests.m; sourceTree = "<group>"; };
+		3452354A1E4468E700C25C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3452354F1E4468E700C25C99 /* Meal WhispererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal WhispererUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345235531E4468E700C25C99 /* Meal_WhispererUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal_WhispererUITests.m; sourceTree = "<group>"; };
+		345235551E4468E700C25C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345235281E4468E500C25C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345235411E4468E700C25C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452354C1E4468E700C25C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345235221E4468E500C25C99 = {
+			isa = PBXGroup;
+			children = (
+				3452352D1E4468E600C25C99 /* Meal Whisperer */,
+				345235471E4468E700C25C99 /* Meal WhispererTests */,
+				345235521E4468E700C25C99 /* Meal WhispererUITests */,
+				3452352C1E4468E600C25C99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3452352C1E4468E600C25C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3452352B1E4468E600C25C99 /* Meal Whisperer.app */,
+				345235441E4468E700C25C99 /* Meal WhispererTests.xctest */,
+				3452354F1E4468E700C25C99 /* Meal WhispererUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3452352D1E4468E600C25C99 /* Meal Whisperer */ = {
+			isa = PBXGroup;
+			children = (
+				345235311E4468E600C25C99 /* AppDelegate.h */,
+				345235321E4468E600C25C99 /* AppDelegate.m */,
+				345235341E4468E600C25C99 /* ViewController.h */,
+				345235351E4468E600C25C99 /* ViewController.m */,
+				345235371E4468E600C25C99 /* Main.storyboard */,
+				3452353A1E4468E700C25C99 /* Assets.xcassets */,
+				3452353C1E4468E700C25C99 /* LaunchScreen.storyboard */,
+				3452353F1E4468E700C25C99 /* Info.plist */,
+				3452352E1E4468E600C25C99 /* Supporting Files */,
+			);
+			path = "Meal Whisperer";
+			sourceTree = "<group>";
+		};
+		3452352E1E4468E600C25C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3452352F1E4468E600C25C99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		345235471E4468E700C25C99 /* Meal WhispererTests */ = {
+			isa = PBXGroup;
+			children = (
+				345235481E4468E700C25C99 /* Meal_WhispererTests.m */,
+				3452354A1E4468E700C25C99 /* Info.plist */,
+			);
+			path = "Meal WhispererTests";
+			sourceTree = "<group>";
+		};
+		345235521E4468E700C25C99 /* Meal WhispererUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345235531E4468E700C25C99 /* Meal_WhispererUITests.m */,
+				345235551E4468E700C25C99 /* Info.plist */,
+			);
+			path = "Meal WhispererUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3452352A1E4468E500C25C99 /* Meal Whisperer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345235581E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal Whisperer" */;
+			buildPhases = (
+				345235271E4468E500C25C99 /* Sources */,
+				345235281E4468E500C25C99 /* Frameworks */,
+				345235291E4468E500C25C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meal Whisperer";
+			productName = "Meal Whisperer";
+			productReference = 3452352B1E4468E600C25C99 /* Meal Whisperer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345235431E4468E700C25C99 /* Meal WhispererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3452355B1E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal WhispererTests" */;
+			buildPhases = (
+				345235401E4468E700C25C99 /* Sources */,
+				345235411E4468E700C25C99 /* Frameworks */,
+				345235421E4468E700C25C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345235461E4468E700C25C99 /* PBXTargetDependency */,
+			);
+			name = "Meal WhispererTests";
+			productName = "Meal WhispererTests";
+			productReference = 345235441E4468E700C25C99 /* Meal WhispererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3452354E1E4468E700C25C99 /* Meal WhispererUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3452355E1E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal WhispererUITests" */;
+			buildPhases = (
+				3452354B1E4468E700C25C99 /* Sources */,
+				3452354C1E4468E700C25C99 /* Frameworks */,
+				3452354D1E4468E700C25C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345235511E4468E700C25C99 /* PBXTargetDependency */,
+			);
+			name = "Meal WhispererUITests";
+			productName = "Meal WhispererUITests";
+			productReference = 3452354F1E4468E700C25C99 /* Meal WhispererUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345235231E4468E500C25C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nags Inc";
+				TargetAttributes = {
+					3452352A1E4468E500C25C99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					345235431E4468E700C25C99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3452352A1E4468E500C25C99;
+					};
+					3452354E1E4468E700C25C99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3452352A1E4468E500C25C99;
+					};
+				};
+			};
+			buildConfigurationList = 345235261E4468E500C25C99 /* Build configuration list for PBXProject "Meal Whisperer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345235221E4468E500C25C99;
+			productRefGroup = 3452352C1E4468E600C25C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3452352A1E4468E500C25C99 /* Meal Whisperer */,
+				345235431E4468E700C25C99 /* Meal WhispererTests */,
+				3452354E1E4468E700C25C99 /* Meal WhispererUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345235291E4468E500C25C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3452353E1E4468E700C25C99 /* LaunchScreen.storyboard in Resources */,
+				3452353B1E4468E700C25C99 /* Assets.xcassets in Resources */,
+				345235391E4468E600C25C99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345235421E4468E700C25C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452354D1E4468E700C25C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345235271E4468E500C25C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345235361E4468E600C25C99 /* ViewController.m in Sources */,
+				345235331E4468E600C25C99 /* AppDelegate.m in Sources */,
+				345235301E4468E600C25C99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345235401E4468E700C25C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345235491E4468E700C25C99 /* Meal_WhispererTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452354B1E4468E700C25C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345235541E4468E700C25C99 /* Meal_WhispererUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345235461E4468E700C25C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3452352A1E4468E500C25C99 /* Meal Whisperer */;
+			targetProxy = 345235451E4468E700C25C99 /* PBXContainerItemProxy */;
+		};
+		345235511E4468E700C25C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3452352A1E4468E500C25C99 /* Meal Whisperer */;
+			targetProxy = 345235501E4468E700C25C99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345235371E4468E600C25C99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345235381E4468E600C25C99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3452353C1E4468E700C25C99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3452353D1E4468E700C25C99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345235561E4468E700C25C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345235571E4468E700C25C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345235591E4468E700C25C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meal Whisperer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-Whisperer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3452355A1E4468E700C25C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meal Whisperer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-Whisperer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3452355C1E4468E700C25C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meal WhispererTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-WhispererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Whisperer.app/Meal Whisperer";
+			};
+			name = Debug;
+		};
+		3452355D1E4468E700C25C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meal WhispererTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-WhispererTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Whisperer.app/Meal Whisperer";
+			};
+			name = Release;
+		};
+		3452355F1E4468E700C25C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meal WhispererUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-WhispererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meal Whisperer";
+			};
+			name = Debug;
+		};
+		345235601E4468E700C25C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meal WhispererUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nagsinc.Meal-WhispererUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meal Whisperer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345235261E4468E500C25C99 /* Build configuration list for PBXProject "Meal Whisperer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345235561E4468E700C25C99 /* Debug */,
+				345235571E4468E700C25C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345235581E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal Whisperer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345235591E4468E700C25C99 /* Debug */,
+				3452355A1E4468E700C25C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3452355B1E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal WhispererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3452355C1E4468E700C25C99 /* Debug */,
+				3452355D1E4468E700C25C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3452355E1E4468E700C25C99 /* Build configuration list for PBXNativeTarget "Meal WhispererUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3452355F1E4468E700C25C99 /* Debug */,
+				345235601E4468E700C25C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345235231E4468E500C25C99 /* Project object */;
+}
